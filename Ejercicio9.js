@@ -1,0 +1,6 @@
+var angulo1 = parseInt(prompt ("Ingrese valor del primer ángulo: "))
+var angulo2 = parseInt(prompt ("Ingrese valor del segundo ángulo: "))
+var anguloRestante = parseInt(180 - (angulo1 + angulo2))
+console.log("El valor del primer ángulo es de " + angulo1 + "°.")
+console.log("El valor del segundo ángulo es de " + angulo2 + "°.")
+console.log("El ángulo restante mide " + anguloRestante + "°.")

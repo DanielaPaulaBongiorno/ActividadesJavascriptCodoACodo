@@ -1,0 +1,5 @@
+var ancho = parseFloat(prompt ("Ingrese ancho del terreno: "))
+var largo = parseFloat(prompt ("Ingrese largo del terreno: "))
+var valorMetro = parseFloat(prompt ("Ingrese valor del metro cuadrado de tierra: "))
+parseFloat(console.log("El valor total del terreno es de: " + (ancho * largo * valorMetro)))
+parseFloat(console.log("Cantidad necesaria de alambre es de: " + ((2*ancho + 2* largo) * 3)))
